@@ -37,6 +37,9 @@
         	</jaxws:outInterceptors>
         </jaxws:endpoint>
         
-        
+        <!-- 客户端 -->
+        <jaxws:client id="WSService" 
+        	serviceClass="cn.com.webxml.MobileCodeWSSoap"
+        	address="http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx"></jaxws:client>
         
 </beans>
